@@ -26,6 +26,7 @@
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
     --normal-font-size: .938rem;
+    --small-font-size:.813rem;
     --smaller-font-size: .75rem;
 
     /*========== Font weight ==========*/
@@ -647,7 +648,7 @@ body.dark-theme {
 
 .footer__description,
 .footer__link, .footer__information {
-    font-size: var(--smaller-font-size);
+    font-size: var(--small-font-size);
 }
 
 .footer__content,
@@ -692,6 +693,11 @@ body.dark-theme {
 .footer__social-link:hover {
     color: var(--first-color-alt);
     transform: translateY(-3px);
+}
+
+.footer__onion, .footer__spinach {
+    width: 30px;
+    position: absolute;
 }
 
 .footer__onion {
